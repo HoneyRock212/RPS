@@ -8,6 +8,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "RPS"
+		"liveServer.settings.multiRootWorkspaceName": "RPS",
+		"livePreview.defaultPreviewPath": "c:\\Users\\Admin\\Documents\\RPS\\RPS-revision"
 	}
 }
