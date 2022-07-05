@@ -5,35 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="RPS-revision.css">
-    <title>Rock Paper and Scissors</title>
+    <script src="RPS-revision.js" defer></script>
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
-<div id="header"><h2>Rock, Paper and Scissors</h2></div>
-
-<div class="tags">
-<h3 class="player-tag">Player</h3>
-<h3 class="player-tag">CPU</h3>
-</div>
-<div class="scoreboard">
-    <h3>Player Score</h3>
-    <h3>CPU Score</h3>
+    <header id="header"><h3>Rock Paper and Scissors!</h3></header>
+    <div class="main-grid">
+        <div class="player">
+        <h3>Player Score</h3>
+        <h2 class="player-score">0</h2>
+        </div>
+        <h3 class="victor"></h3>
+        <div class="picks">
+            <img class="playerimg" >
+            <img class="computerimg" >
+        </div>
+        <h3 class="result">Pick your weapon!</h3>
+        <div class="computer">
+            <h3>Computer Score</h3>
+            <h2 class="computer-score">0</h2>
+            </div>
+        <div class="choices">
+        <button class="rock"></button>
+        <button class="paper"></button>
+        <button class="scissors"></button>
+        </div>
+        
     </div>
-    <div class="score">
-    <h3 class="playerscore"></h3>
-    <h3 class="computerscore"></h3>
-    </div>
-    
-<div class="img-container">
-    <img>
-    <img>
-</div>
-
-<div class="main">
- <button>Rock</button>
- <button>Paper</button>
- <button>Scissor</button>   
-</div>
-
-<div id="footer"><h2>By: Ian Rafael T. Abenido</h2></div>    
+    <footer id="footer"><h4>By: Ian Rafael T. Abenido from Odin Project</h4></h2></footer>
 </body>
 </html>
