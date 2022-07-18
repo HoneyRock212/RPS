@@ -8,30 +8,70 @@
     <script src="RPS-revision.js" defer></script>
     <title>Rock Paper Scissors</title>
 </head>
-<body>
-    <header id="header"><h3>Rock Paper and Scissors!</h3></header>
-    <div class="main-grid">
-        <div class="player">
-        <h3>Player Score</h3>
-        <h2 class="player-score">0</h2>
+
+    <button class="startButton">
+        Start
+    </button>
+   
+    <body>
+    <div class="wrapper">
+        <div class="roundCounter">
+            <h4>Round</h4>
+            <h4 class="round">0</h4>
         </div>
-        <h3 class="victor"></h3>
-        <div class="picks">
-            <img class="playerimg" >
-            <img class="computerimg" >
+       <div class="gameWrapper">
+        <div class="playerHistory">
+            <h4 class="pHistory">Player History</h4>           
         </div>
-        <h3 class="result">Pick your weapon!</h3>
-        <div class="computer">
-            <h3>Computer Score</h3>
-            <h2 class="computer-score">0</h2>
+        <div class="main">
+            <div class="game">
+                <div class="playerBox">
+                 <div class="picks">
+                    <img class="playerProfile">
+                    <img class="computerProfile">
+                 </div>
+                 
+                 <div class = "buttons">
+                    <button class="rock" id="rock"></button>
+                    <button class="paper" id="paper"></button>
+                    <button class="scissors" id="scissors"></button>
+                 </div>   
+                </div>
+               
             </div>
-        <div class="choices">
-        <button class="rock"></button>
-        <button class="paper"></button>
-        <button class="scissors"></button>
         </div>
-        
+        <div class="computerHistory">
+            <h4 class="cHistory">Computer History</h4>
+
+        </div>
     </div>
-    <footer id="footer"><h4>By: Ian Rafael T. Abenido from Odin Project</h4></h2></footer>
+    
+        <div class="scoreBoard">
+            <h4 class="scoreSign">Score</h4>
+            <div class="playerBoard">
+                <h4>Player</h4>
+                 <h4 class="playerScore">0</h4>
+            </div>
+            <div class="computerBoard">
+                <h4>Computer</h4>
+                <h4 class="computerScore">0</h4>
+            </div>
+        </div>
+        <div class="commentaryBox">
+            <p class="commentary"></p>
+        </div>
+        </div>
+        <div class="restart-modal">
+            <div class="modal-content">
+                <p class="modalCommentary"></p>
+                <button class="restart">
+                    Restart
+                </button>
+                <button class="quit">
+                    Quit
+                </button>
+            </div>
+        </div>
+    
 </body>
 </html>
